@@ -30,7 +30,7 @@ class AddTaskViewController: UIViewController {
     
     lazy var touchView: UIView = {
         
-        let _touchView = UIView()ss
+        let _touchView = UIView()
         
         _touchView.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0)
         

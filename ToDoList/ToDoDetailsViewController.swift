@@ -47,7 +47,7 @@ class ToDoDetailsViewController: UIViewController {
         
         let formatter = DateFormatter()
         
-        formatter.dateFormat = "dd MMM, yyyy hh:mm"
+        formatter.dateFormat = "dd MMM, yy hh:mm"
         
         let taskDate = formatter.string(from: toDoItem.completionDate)
         
